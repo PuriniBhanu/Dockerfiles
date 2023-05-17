@@ -16,6 +16,12 @@ docker build -t [docker-hub-URL]/[your-username]/[image-name]:version .
 docker push [docker-hub-URL]/[your-username]/[image-name]:version
 ```
 
+### To keep the running the container 
+To keep alive a container we can use
+
+```
+CMD ["nginx","-g","daemon off;"]
+```
 ### How to filter Docekr images by LABEL
 
 docker images --filter "label=<key>=<value>"
