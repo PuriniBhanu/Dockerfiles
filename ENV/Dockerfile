@@ -1,0 +1,4 @@
+FROM almalinux
+ENV AUTHOR="BHANUSIVA"\
+    GENDER="MALE"\
+    AREA="ONGOLE"
